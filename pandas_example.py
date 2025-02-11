@@ -14,3 +14,6 @@ df = pd.DataFrame({
 ## Print Meand and standard deviation
 print(df["sales"].mean())
 print(df["sales"].std())
+print(df["sales"].max())
+print(df["sales"].min())
+
