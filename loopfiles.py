@@ -3,7 +3,7 @@
 import os
 
 #root directory
-directory = "C:/direct/fold"
+directory = "D:\Adani"
 
 for foldername, subfolders, filenames in os.walk(directory):
     for filename in filenames:
